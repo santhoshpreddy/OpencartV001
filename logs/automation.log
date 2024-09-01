@@ -1,0 +1,60 @@
+2024-08-31 10:40:55 INFO  TC001_AccountRegistrationTest:23 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-08-31 10:41:08 ERROR TC001_AccountRegistrationTest:56 - Test failed: Error communicating with the remote browser. It may have died.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39ec1e6f5051ff46ffc87f15947515bf, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\Santhosh\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64840}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64840/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 39ec1e6f5051ff46ffc87f15947515bf
+2024-08-31 10:41:08 INFO  TC001_AccountRegistrationTest:61 - ***** Finished TC001_AccountRegistrationTest *****
+2024-08-31 10:41:35 INFO  TC001_AccountRegistrationTest:23 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-08-31 10:41:37 INFO  TC001_AccountRegistrationTest:30 - Clicked on MyAccount Link....
+2024-08-31 10:41:38 INFO  TC001_AccountRegistrationTest:32 - Clicked on Register Link....
+2024-08-31 10:41:38 INFO  TC001_AccountRegistrationTest:35 - Providing customer details....
+2024-08-31 10:41:41 INFO  TC001_AccountRegistrationTest:48 - Validating expected message..
+2024-08-31 10:41:41 INFO  TC001_AccountRegistrationTest:53 - Test passed
+2024-08-31 10:41:41 INFO  TC001_AccountRegistrationTest:61 - ***** Finished TC001_AccountRegistrationTest *****
+2024-08-31 10:41:43 INFO  TC002_LoginTest:16 - **** Starting TC002_LoginTest****
+2024-08-31 10:41:44 INFO  TC002_LoginTest:24 - Clicked on MyAccount..
+2024-08-31 10:41:45 INFO  TC002_LoginTest:26 - Clicked on Login..
+2024-08-31 10:41:45 INFO  TC002_LoginTest:31 - Entered emailaddress..
+2024-08-31 10:41:45 INFO  TC002_LoginTest:33 - Entered password..
+2024-08-31 10:41:46 INFO  TC002_LoginTest:35 - Clicked on login..
+2024-08-31 10:41:46 INFO  TC002_LoginTest:42 - Verified MyAccount page..
+2024-08-31 10:41:46 INFO  TC002_LoginTest:49 - **** Finished TC002_LoginTest****
+2024-08-31 11:19:38 INFO  TC001_AccountRegistrationTest:23 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-08-31 11:19:48 ERROR TC001_AccountRegistrationTest:56 - Test failed: Error communicating with the remote browser. It may have died.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc26da61f8ae2a884d8fac839bedd05c, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\Santhosh\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50560}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50560/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc26da61f8ae2a884d8fac839bedd05c
+2024-08-31 11:19:48 INFO  TC001_AccountRegistrationTest:61 - ***** Finished TC001_AccountRegistrationTest *****
+2024-08-31 11:20:13 INFO  TC001_AccountRegistrationTest:23 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-08-31 11:20:23 ERROR TC001_AccountRegistrationTest:56 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//ul//li[@class='dropdown']//span[contains(.,'My Account')]"}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57113e1847b4919aa104b7ec0075ee66, findElement {value=//ul//li[@class='dropdown']//span[contains(.,'My Account')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\Santhosh\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50594}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50594/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57113e1847b4919aa104b7ec0075ee66
+2024-08-31 11:20:23 INFO  TC001_AccountRegistrationTest:61 - ***** Finished TC001_AccountRegistrationTest *****
+2024-08-31 11:20:29 INFO  TC002_LoginTest:16 - **** Starting TC002_LoginTest****
+2024-08-31 11:21:30 INFO  TC001_AccountRegistrationTest:23 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-08-31 11:21:30 INFO  TC001_AccountRegistrationTest:30 - Clicked on MyAccount Link....
+2024-08-31 11:21:31 INFO  TC001_AccountRegistrationTest:32 - Clicked on Register Link....
+2024-08-31 11:21:31 INFO  TC001_AccountRegistrationTest:35 - Providing customer details....
+2024-08-31 11:21:34 INFO  TC001_AccountRegistrationTest:48 - Validating expected message..
+2024-08-31 11:21:34 INFO  TC001_AccountRegistrationTest:53 - Test passed
+2024-08-31 11:21:34 INFO  TC001_AccountRegistrationTest:61 - ***** Finished TC001_AccountRegistrationTest *****
+2024-08-31 11:21:36 INFO  TC002_LoginTest:16 - **** Starting TC002_LoginTest****
+2024-08-31 11:21:37 INFO  TC002_LoginTest:24 - Clicked on MyAccount..
+2024-08-31 11:21:37 INFO  TC002_LoginTest:26 - Clicked on Login..
+2024-08-31 11:21:37 INFO  TC002_LoginTest:31 - Entered emailaddress..
+2024-08-31 11:21:37 INFO  TC002_LoginTest:33 - Entered password..
+2024-08-31 11:21:38 INFO  TC002_LoginTest:35 - Clicked on login..
+2024-08-31 11:21:38 INFO  TC002_LoginTest:42 - Verified MyAccount page..
+2024-08-31 11:21:38 INFO  TC002_LoginTest:49 - **** Finished TC002_LoginTest****
